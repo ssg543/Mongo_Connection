@@ -1,0 +1,444 @@
+{
+  "_id": {
+    "$oid": "620ce2be0ec8e032b5cffe52"
+  },
+  "wfPmtOrdrPrcg": {
+    "com_wellsfargo_epd_upo_avro_WfPmtOrdrPrcg": {
+      "applId": {
+        "string": "PMTS"
+      },
+      "pmtRail": {
+        "string": "CEO"
+      },
+      "pmtDlvryTp": null,
+      "pmtTp": {
+        "string": "WIRES"
+      },
+      "applCstmrId": null,
+      "applUsrId": null,
+      "pmtDesc": {
+        "string": "*FTR    983086GW000000059209511031NR USDUSD000000000000025SDRCN            121NN\n2FTR             220216\nORG=D/12345\n-Dave\n-add1\n-add2\n-SF 1 MP 45454 US\nORF=7954\nDBT=D/20570\n-OriginatingPartyNm\n-OrgPrtyNmAddressLine1\n-Roseville US\nBBK=A/026004048\n-ARAB BANKING CORPORATION\n-140 EAST 45TH STREET\n-FLOOR 38\n-NEW YORK 10017 US\nBNF=D/20570\n-OriginatingPartyNm\n-OrgPrtyNmAddressLine1\n-Roseville US\n{1510}1631\n{2000}000000002500\n{3100}121000248WELLS FARGO SF*\n{3320}2022021600000014*\n{3400}026004048ARAB CORP*\n{3600}DRB\n{4200}D20570*\nORIGINATINGPARTYNM*\nORGPRTYNMADDRESSLINE1*\nROSEVILLE US*\n{4320}7954*\n{4400}D12345*\nDAVE*\nADD1*\nADD2*\nSF 1 MP 45454 US*\n{5400}121000248\n"
+      },
+      "thrdPtyId": null,
+      "pmtOrdrId": {
+        "string": "2022021600000014"
+      },
+      "acctSvcrId": null,
+      "clrSysInf": null,
+      "applFileId": {
+        "string": "2022021600000014"
+      },
+      "pmtErr": null,
+      "tplInf": null,
+      "acctTracId": null,
+      "cstmrInf": null,
+      "pmtTrckrUUID": null
+    }
+  },
+  "pmtInf": {
+    "com_wellsfargo_epd_upo_avro_PmtInf": {
+      "pmtId": {
+        "com_wellsfargo_epd_upo_avro_PmtId": {
+          "instrId": null,
+          "endToEndId": null,
+          "txId": {
+            "string": "2022021600000014"
+          },
+          "msgId": null,
+          "orgnlInstrId": null,
+          "orgnlEndToEndId": null,
+          "orgnlTxId": null,
+          "orgnlPmtInfId": null,
+          "orgnlMsgId": null
+        }
+      },
+      "cdtDbtInd": null,
+      "amt": {
+        "com_wellsfargo_epd_upo_avro_Amt": {
+          "instdAmt": {
+            "com_wellsfargo_epd_upo_avro_InstdAmt": {
+              "amt": {
+                "string": "25.00"
+              },
+              "ccy": {
+                "string": "USD"
+              }
+            }
+          },
+          "dbtAmt": {
+            "com_wellsfargo_epd_upo_avro_DbtAmt": {
+              "amt": {
+                "string": "25.00"
+              },
+              "ccy": {
+                "string": "USD"
+              }
+            }
+          },
+          "cdtAmt": {
+            "com_wellsfargo_epd_upo_avro_CdtAmt": {
+              "amt": {
+                "string": "25.00"
+              },
+              "ccy": {
+                "string": "USD"
+              }
+            }
+          }
+        }
+      },
+      "xchgRateInf": {
+        "com_wellsfargo_epd_upo_avro_XchgRateInf": {
+          "unitCcy": null,
+          "wf_QtdCcy": null,
+          "xchgRate": {
+            "string": "1.00000000000"
+          },
+          "rateTp": null,
+          "ctrctId": null,
+          "wf_CtrctTp": null,
+          "wf_BuySellInd": null
+        }
+      },
+      "chrgBr": null,
+      "wf_CutoffDtTm": null,
+      "wf_XprtnDays": null,
+      "instrForCdtrAgt": null,
+      "instrForNxtAgt": null,
+      "InstrForDbtrAgt": null,
+      "chrgsAcct": null,
+      "chrgsAcctAgt": null,
+      "initgPty": null,
+      "fwdgAgt": null,
+      "dbtr": {
+        "com_wellsfargo_epd_upo_avro_Dbtr": {
+          "nm": {
+            "string": "Ameriprise Trust Company"
+          },
+          "shrtNm": null,
+          "gvnNm": null,
+          "mdlNm": null,
+          "surNm": null,
+          "sfx": null,
+          "pstlAdr": {
+            "com_wellsfargo_epd_upo_avro_PstlAdr": {
+              "adrLine": null,
+              "adrTp": null,
+              "dept": null,
+              "subDept": null,
+              "strtNm": {
+                "string": "707 Second Ave South"
+              },
+              "bldgNb": null,
+              "pstCd": {
+                "string": "55402"
+              },
+              "twnNm": {
+                "string": "Minneapolis"
+              },
+              "ctrySubDvsn": {
+                "string": "MN"
+              },
+              "ctry": {
+                "string": "US"
+              }
+            }
+          },
+          "dbtrId": {
+            "com_wellsfargo_epd_upo_avro_Id": {
+              "orgId": {
+                "com_wellsfargo_epd_upo_avro_OrgId": {
+                  "anyBic": {
+                    "string": "091000019"
+                  },
+                  "estblishdDt": null,
+                  "regnDt": null,
+                  "regnCtry": null,
+                  "othr": {
+                    "array": [
+                      {
+                        "id": {
+                          "string": "31696"
+                        },
+                        "schmeNm": {
+                          "string": "EPIC"
+                        },
+                        "issr": null,
+                        "prxy": null
+                      }
+                    ]
+                  }
+                }
+              },
+              "prvtId": null
+            }
+          },
+          "ctryOfRes": null,
+          "ctctDtls": null,
+          "wf_NtfctnDtls": null
+        }
+      },
+      "dbtrAcct": {
+        "com_wellsfargo_epd_upo_avro_DbtrAcct": {
+          "id": {
+            "com_wellsfargo_epd_upo_avro_Id_1": {
+              "iban": {
+                "string": "00000000000000000020570"
+              },
+              "othr": {
+                "com_wellsfargo_epd_upo_avro_Othr": {
+                  "id": {
+                    "string": "00000000000000000020570"
+                  },
+                  "schmeNm": null,
+                  "issr": null,
+                  "prxy": {
+                    "com_wellsfargo_epd_upo_avro_Prxy": {
+                      "id": null,
+                      "tp": {
+                        "string": "P"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "tp": {
+            "string": "D"
+          },
+          "ccy": null,
+          "nm": null,
+          "wf_AcctFlg": null,
+          "wf_AcctTp": null,
+          "wf_PrdtCd": null,
+          "wf_CpnyNb": null,
+          "wf_SubPrdtCd": null
+        }
+      },
+      "dbtrAgt": {
+        "com_wellsfargo_epd_upo_avro_DbtrAgt": {
+          "finInstnId_2": {
+            "com_wellsfargo_epd_upo_avro_FinInstnId_2": {
+              "bicfi": "ABCMGUG1",
+              "uschu": null,
+              "clrSysMmbId": null,
+              "nm": {
+                "string": "PHILIPPINE BANK (PNB) GUAM"
+              },
+              "pstlAdr_1": {
+                "string": "719 SOUTH MARINE DRIVE"
+              },
+              "twnNm": {
+                "string": ""
+              },
+              "ctry": {
+                "string": ""
+              }
+            }
+          },
+          "brnchId": {
+            "com_wellsfargo_epd_upo_avro_BrnchId": {
+              "id": null,
+              "nm": null,
+              "pstlAdr_1": null
+            }
+          }
+        }
+      },
+      "ultmtDbtr": null,
+      "cdtr": {
+        "com_wellsfargo_epd_upo_avro_Cdtr": {
+          "nm": {
+            "string": "OriginatingPartyNm"
+          },
+          "shrtNm": null,
+          "gvnNm": null,
+          "mdlNm": null,
+          "surNm": null,
+          "sfx": null,
+          "pstlAdr": {
+            "com_wellsfargo_epd_upo_avro_PstlAdr_1": {
+              "adrLine": {
+                "array": [
+                  {
+                    "string": "ADD1 ADD2 SF 1 MP 45454 US"
+                  }
+                ]
+              },
+              "adrTp": null,
+              "dept": null,
+              "subDept": null,
+              "strtNm": {
+                "string": "ADD1 ADD2 SF 1 MP 45454 US"
+              },
+              "bldgNb": null,
+              "pstCd": null,
+              "twnNm": null,
+              "ctrySubDvsn": null,
+              "ctry": {
+                "string": "US"
+              }
+            }
+          },
+          "cdtrId": {
+            "com_wellsfargo_epd_upo_avro_Id": {
+              "orgId": {
+                "com_wellsfargo_epd_upo_avro_OrgId": {
+                  "anyBic": {
+                    "string": "026004048"
+                  },
+                  "estblishdDt": null,
+                  "regnDt": null,
+                  "regnCtry": null,
+                  "othr": null
+                }
+              },
+              "prvtId": null
+            }
+          },
+          "ctryOfRes": null,
+          "ctctDtls": null,
+          "wf_NtfctnDtls": null
+        }
+      },
+      "cdtrAcct": {
+        "com_wellsfargo_epd_upo_avro_CdtrAcct": {
+          "id": {
+            "com_wellsfargo_epd_upo_avro_Id_1": {
+              "iban": {
+                "string": "3453453"
+              },
+              "othr": {
+                "com_wellsfargo_epd_upo_avro_Othr": {
+                  "id": {
+                    "string": "00000000000000000020570"
+                  },
+                  "schmeNm": null,
+                  "issr": null,
+                  "prxy": null
+                }
+              }
+            }
+          },
+          "tp": {
+            "string": "D"
+          },
+          "ccy": null,
+          "nm": null,
+          "wf_AcctFlg": null,
+          "wf_AcctTp": {
+            "string": "B"
+          },
+          "wf_PrdtCd": null,
+          "wf_CpnyNb": null,
+          "wf_SubPrdtCd": null
+        }
+      },
+      "cdtrAgt": {
+        "com_wellsfargo_epd_upo_avro_CdtrAgt": {
+          "finInstnId_2": {
+            "com_wellsfargo_epd_upo_avro_FinInstnId_2": {
+              "bicfi": null,
+              "uschu": null,
+              "clrSysMmbId": null,
+              "nm": {
+                "string": "ARAB BANKING CORPORATION"
+              },
+              "pstlAdr_1": {
+                "string": ""
+              },
+              "ctrySubDvsn": {
+                "string": "NY"
+              },
+              "ctry": {
+                "string": "US"
+              }
+            }
+          },
+          "brnchId": {
+            "com_wellsfargo_epd_upo_avro_BrnchId_2": {
+              "id": {
+                "string": "026004048"
+              },
+              "nm": null,
+              "pstlAdr_2": null
+            }
+          }
+        }
+      },
+      "cdtrAgtAcct": null,
+      "ultmtCdtr": null,
+      "intrmyAgt1": null,
+      "intrmyAgt1Acct": null,
+      "intrmyAgt2": null,
+      "intrmyAgt2Acct": null,
+      "chqInstr": null,
+      "wf_dfinf": null,
+      "rgltryRptg": null,
+      "rltdRmtInf": null,
+      "rmtInf": null,
+      "msgRcpt": null
+    }
+  },
+  "wf_EvtInf": {
+    "com_wellsfargo_epd_upo_avro_Wf_EvtInf": {
+      "evtTp": null,
+      "evtId": null,
+      "evtNm": null,
+      "evtDtTm": {
+        "string": "2022-02-16T04:03:19"
+      },
+      "evtUsrId": null,
+      "evtOrgtnChnl": null,
+      "evtDesc": {
+        "string": "RecordTypeCreditor:A RecordTypeDebitor:D"
+      },
+      "evtApplSts": {
+        "string": "CMP"
+      },
+      "evtTxSts": null,
+      "evtRcncltnInf": null
+    }
+  },
+  "splmtryData": {
+    "com_wellsfargo_epd_upo_avro_SplmtryData": {
+      "createdDate": {
+        "$date": "2022-02-16T05:40:46.975Z"
+      },
+      "splmtrydataAch": null,
+      "splmtrydataCcdms": null,
+      "splmtrydataSao": null,
+      "splmtrydataWires": {
+        "com_wellsfargo_epd_upo_avro_SplmtryDataWIRES": {
+          "corssBorderIndicator": null,
+          "hsWireCustType": null,
+          "hsWireDbSubprod": null,
+          "hsWireRefAcct": null,
+          "fREFnum": {
+            "string": "GW00000005920952"
+          }
+        }
+      },
+      "splmtrydataBillPay": null,
+      "timestamp": {
+        "string": "16-02-2022 05:40:46"
+      },
+      "currentTimestamp": {
+        "long": {
+          "$numberLong": "1645011646000"
+        }
+      },
+      "shard_key": {
+        "string": "OriginatingPartyNm_16-02-2022 05:40:46"
+      },
+      "payoriswells": {
+        "string": "Y"
+      },
+      "payeeiswells": {
+        "string": "N"
+      },
+      "error_msg": null
+    }
+  }
+}
